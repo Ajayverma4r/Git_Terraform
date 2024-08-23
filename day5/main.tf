@@ -32,5 +32,6 @@ resource "aws_instance" "name" {
 
       # This means if the tags are modified outside of Terraform (directly in the AWS console), 
       # Terraform will not attempt to revert those changes or recreate the resource.
+    
     }*/
 }
