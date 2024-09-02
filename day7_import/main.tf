@@ -1,8 +1,6 @@
-resource "aws_instance" "dev" {
-    ami = "ami-02c21308fed24a8ab"
+resource "aws_instance" "import" {
+    ami = "ami-066784287e358dad1"
     instance_type = "t2.micro"
     key_name = "test-key"
-    tags = {
-      Name = "My-ec2"
-    }
+  
 }
